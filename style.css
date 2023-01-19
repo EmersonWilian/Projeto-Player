@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(6, 1, 19);
+}
+
+.fundo-claro{
+    border-radius: 5%;
+    width: 25vw;
+    height: 40vh;
+    background-color: rgb(34, 5, 88);
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
+
+.figura img{
+    height: 18vh;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto 
+  
+    
+}
+.texto h1{
+    margin-left: 7%;
+    padding-top: 4%;
+    font-size: calc(0.1em + 2.0vw);
+    color: rgb(150, 149, 148);
+}
+.texto h4{
+    margin-left: 8%;
+    padding-top: 1%;
+    font-size: calc(0.1em + 1vw);
+    color: rgb(145, 145, 145);
+    align-items: center;
+}
+.icones{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    margin-left: 5%;
+    height: 0.4vh;
+    width: 90%;
+    border-radius: 8px;
+    background-color: rgb(150, 150, 150);;
+    position: relative;
+    
+}
+.container .progress-bar{
+   margin-left: 5%;
+   position: absolute;
+   height: 100%;
+   border-radius: 10px;
+}
+.tempo{
+    font-size: 2vh;
+    padding-top: 2%;
+    color: rgb(150, 150, 150);
+    display: flex;
+    justify-content: space-around
+}
+.tempo1{
+    padding-right: 65%;
+}
